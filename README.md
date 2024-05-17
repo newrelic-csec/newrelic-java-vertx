@@ -15,7 +15,6 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic/newrelic-java-vertx)
 ![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic/newrelic-java-vertx)
 
-test
 # New Relic Java Instrumentation for Vert.x Event Bus
 
 Provides instrumentation code for monitoring the Vert.x Event Bus.  Tracks flow across the event bus.
