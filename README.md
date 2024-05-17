@@ -22,7 +22,7 @@ Provides instrumentation code for monitoring the Vert.x Event Bus.  Tracks flow 
 
  Vertx-Verticles provides instrumentation for classes extends AbstractVerticle.  It does this by instrumenting each class that is deployed.  It tracks all methods except those defined by AbstractVerticle. Methods not tracked: 	start, stop, rxStart, rxStop, config, deploymentID, getVertx, init, processArgs.
 
-test
+
 ## Installation
 
 To install the instrumentation:
