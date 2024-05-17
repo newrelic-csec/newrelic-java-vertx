@@ -14,15 +14,12 @@
 ![GitHub issues closed](https://img.shields.io/github/issues-closed/newrelic/newrelic-java-vertx)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/newrelic/newrelic-java-vertx)
 ![GitHub pull requests closed](https://img.shields.io/github/issues-pr-closed/newrelic/newrelic-java-vertx)
-
-test
 # New Relic Java Instrumentation for Vert.x Event Bus
 
 Provides instrumentation code for monitoring the Vert.x Event Bus.  Tracks flow across the event bus.
 
  Vertx-Verticles provides instrumentation for classes extends AbstractVerticle.  It does this by instrumenting each class that is deployed.  It tracks all methods except those defined by AbstractVerticle. Methods not tracked: 	start, stop, rxStart, rxStop, config, deploymentID, getVertx, init, processArgs.
 
-test
 ## Installation
 
 To install the instrumentation:
